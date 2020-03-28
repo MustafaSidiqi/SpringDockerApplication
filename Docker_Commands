@@ -1,0 +1,14 @@
+docker build -t greeting-app .
+
+docker images
+
+docker run -p 8090:8080 greeting-app
+
+mvn spring-boot:run
+
+mvn clean install
+
+https://stackabuse.com/dockerizing-a-spring-boot-application/
+
+
+gt
